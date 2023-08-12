@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
+![picture](https://github.com/fredoananda/Authentication-login/blob/main/Screenshot%202023-08-13%20at%2002.18.41.png)
 ## Getting Started
 
 First, run the development server:
@@ -11,7 +11,7 @@ yarn dev
 # or
 pnpm dev
 ```
-
+![picture](https://github.com/fredoananda/Authentication-login/blob/main/Screenshot%202023-08-13%20at%2002.19.34.png)
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
