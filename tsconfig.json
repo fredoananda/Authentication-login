@@ -14,13 +14,17 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": "./src",
+
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "<prefix>/*": ["./src/*"]
+      "@/dbConfig/*": ["dbConfig/*"],
+      "@/models/*": ["models/*"]
+      // "<prefix>/*": ["./src/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import { useRouter } from "next/router";
 import axios from "axios";
 import Image from "next/image";
 
@@ -13,19 +12,11 @@ function Login() {
   // const router = useRouter();
 
   const onLogin = async () => {
-    // Implement login logic here using axios or any other method
-    // You can send the user data to your backend server
-    // and handle the response accordingly
     try {
       const response = await axios.post("/api/login", user);
-      // Handle success or error response
-      // router.push("/dashboard"); // Redirect to dashboard after successful login
     } catch (error) {
       console.error("Login error:", error);
     }
-  };
-  const redirectToHome = () => {
-    // router.push("/");
   };
 
   return (
@@ -40,7 +31,6 @@ function Login() {
               width={280}
               height={37}
               priority
-              onClick={redirectToHome}
             />
           </a>
         </div>
